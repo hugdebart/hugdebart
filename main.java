@@ -83,14 +83,18 @@ public class main {
 		ligne1.remplirListe();
 		
 		//On demande a l'utilisateur les informations necessaires a un calcul de trajet
-		System.out.println("Donner un arret de départ");
+		//Donne le nom d'un arret
+		System.out.println("1 - Donner un arret de départ");
 		String choix1 = Keyboard.getString();
-		System.out.println("Donner un horaire de départ");
+		//Donne un horaire récupéré en chaine de caractère
+		System.out.println("2 - Donner un horaire de départ");
 		String choix2 = Keyboard.getString();
-		System.out.println("Donner un arret d'arrivé");
+		//Donne le nom d'un arret
+		System.out.println("3 - Donner un arret d'arrivé");
 		String choix3 = Keyboard.getString();
-		System.out.println("Le plus court, le plus rapide ou le plus tot ?");
-		String choix4 = Keyboard.getString();
+		//Donne l'un des trois chiffre
+		System.out.println("4 - Le plus court (1), le plus rapide (2) ou le plus tot (3)?");
+		int choix4 = Keyboard.getInt();
 		
 	
 		
